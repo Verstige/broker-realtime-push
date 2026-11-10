@@ -1,0 +1,19 @@
+{
+  "name": "broker-realtime-push",
+  "description": "Push live broker data to browser tabs for brokers with no streaming API (TradeLocker, DXTrade, MT5 bridges). A server-side poll fans out deltas to every open tab over SSE.",
+  "owner": {
+    "name": "Julylan Johnson",
+    "url": "https://github.com/Verstige"
+  },
+  "metadata": {
+    "description": "Push live broker data to browser tabs for brokers with no streaming API (TradeLocker, DXTrade, MT5 bridges). A server-side poll fans out deltas to every open tab over SSE.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "broker-realtime-push",
+      "source": "./plugins/broker-realtime-push",
+      "description": "Push live broker data to browser tabs for brokers with no streaming API (TradeLocker, DXTrade, MT5 bridges). A server-side poll fans out deltas to every open tab over SSE."
+    }
+  ]
+}

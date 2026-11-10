@@ -1,0 +1,18 @@
+{
+  "name": "broker-realtime-push",
+  "displayName": "Broker Realtime Push",
+  "version": "1.0.0",
+  "description": "Push live broker data to browser tabs for brokers with no streaming API (TradeLocker, DXTrade, MT5 bridges). A server-side poll fans out deltas to every open tab over SSE.",
+  "author": {
+    "name": "the maintainers"
+  },
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "agent",
+    "broker realtime push"
+  ],
+  "skills": [
+    "./skills/"
+  ]
+}
